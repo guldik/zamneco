@@ -1,12 +1,18 @@
 public class Tester extends Zamestnanec {
-    private int chyb = 0;
+    int chyb;
 
     public Tester(String jmeno, String prijmeni, String pozice, int plat, int chyb) {
         super(jmeno, prijmeni, pozice, plat);
+        this.chyb = chyb;
     }
     public void naselJsemChybu(){
-        System.out.println(chyb+1);
+        chyb++;
+        System.out.println("Chybu: " + chyb);
+
     }
 
+    public void vypisInfo(){
+        System.out.println(jmeno + " " + prijmeni + " s pozici " + pozice + " ma plat " + plat + " kc. chyb: " + chyb);
+}
 }
 

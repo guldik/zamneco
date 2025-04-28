@@ -2,10 +2,10 @@ import java.util.Scanner;
 
 public class Zamestnanec {
 
-    private String jmeno;
-    private String prijmeni;
-    private String pozice;
-    private int plat;
+    public String jmeno;
+    public String prijmeni;
+    public String pozice;
+    public int plat;
 
 
     public Zamestnanec(String jmeno, String prijmeni, String pozice, int plat) {
